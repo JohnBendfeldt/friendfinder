@@ -17,10 +17,10 @@ module.exports = function(app) {
 	app.post('/api/friends', function(req, res) {
 		// Capture the user input object
 		var userInput = req.body;
-		// console.log('userInput = ' + JSON.stringify(userInput));
+		console.log('userInput = ' + JSON.stringify(userInput));
 
 		var userResponses = userInput.scores;
-		// console.log('userResponses = ' + userResponses);
+		console.log('userResponses = ' + userResponses);
 
 		// Compute best friend match
 		var matchName = '';
