@@ -1,0 +1,24 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "Take a Survey to find who you are most similar to!",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnBendfeldt/friendfinder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JohnBendfeldt/friendfinder/issues"
+  },
+  "homepage": "https://github.com/JohnBendfeldt/friendfinder#readme"
+}
