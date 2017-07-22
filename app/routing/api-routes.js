@@ -29,11 +29,11 @@ module.exports = function(app) {
 
 		// Examine all existing friends in the list
 		for (var i = 0; i < friends.length; i++) {
-
             // Finding the Differences
 			var diff = 0;
 			for (var j = 0; j < userResponses.length; j++) {
 				diff += Math.abs(friends[i].scores[j] - userResponses[j]);
+				console.log(diff);
 			}
 
 
@@ -42,6 +42,8 @@ module.exports = function(app) {
 				totalDifference = diff;
 				matchName = friends[i].name;
 				matchImage = friends[i].photo;
+				console.log("matchImage= " + matchImage),
+				console.log("matchName= " + matchName)
 			}
 		}
 
