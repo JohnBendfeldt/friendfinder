@@ -28,28 +28,21 @@ module.exports = function(app) {
 		var totalDifference = 10000; // Make the initial value big for comparison
 
 		// Examine all existing friends in the list
-		for (var i = 0; i < friends.length; i++) {
-            // Finding the Differences
-			var diff = 0;
-			for (var j = 0; j < userResponses.length; j++) {
-				diff += Math.abs(friends[i].scores[j] - userResponses[j]);
-				console.log(diff);
-			}
-
-
-			// If lowest difference, record the friend match
-			if (diff < totalDifference) {
-				totalDifference = diff;
-				matchName = friends[i].name;
-				matchImage = friends[i].photo;
-				console.log("matchImage= " + matchImage),
-				console.log("matchName= " + matchName)
-			}
-		}
+	var userTotalScore = userResponses.reduce((sum, next) => sum + parseInt(next), 0)
+            for (var i = 0; i < friends.length; i++) {
+                var currentFriendTotal = friends[i].scores.reduce((sum, next) => sum + parseInt(next), 0)
+                var difference = Math.abs(userTotalScore - currentFriendTotal)
+                if (difference < totalDifference) {
+                    totalDifference = difference;
+                    matchName = friends[i].name;
+                    matchImage = friends[i].photo;
+                }
+        }
 
 		// Add new user
 		friends.push(userInput);
-
+		console.log(matchImage);
+		console.log(matchName);
 		// Send appropriate response
 		res.json({status: 'OK', matchName: matchName, matchImage: matchImage});
 	});
