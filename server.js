@@ -7,10 +7,15 @@ var PORT = process.env.PORT || 8080;
 
  
 // parse application/x-www-form-urlencoded 
-app.use(bodyParser.urlencoded({ extended: false }))
+//app.use(bodyParser.urlencoded({ extended: false }))
  
 // parse application/json 
-app.use(bodyParser.json())
+//app.use(bodyParser.json())
+
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.text());
+app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 
 require('./app/routing/api-routes.js')(app);
 require('./app/routing/html-routes.js')(app);
