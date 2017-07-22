@@ -1,7 +1,7 @@
 var friendsArray = [
     {
-        "name": "Ahmed",
-        "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "name": "Sean Spicer",
+        "photo": "http://i2.cdn.cnn.com/cnnnext/dam/assets/170209140010-01-sean-spicer-0208-exlarge-169.jpg",
         "scores": [
             "5",
             "1",
@@ -16,8 +16,8 @@ var friendsArray = [
             ]
     },
     {
-        "name": "Jacob Deming",
-        "photo": "https://pbs.twimg.com/profile_images/691785039043022849/oWsy8LNR.jpg",
+        "name": "Steve Bannon",
+        "photo": "https://cdn.theatlantic.com/assets/media/img/mt/2016/08/steve_bannon/lead_960.jpg?1472160740",
         "scores": [
             "4",
             "2",
@@ -32,8 +32,8 @@ var friendsArray = [
             ]
     },
     {
-        "name": "Jeremiah Scanlon",
-        "photo": "https://avatars2.githubusercontent.com/u/8504998?v=3&s=460",
+        "name": "Ivanka Trump",
+        "photo": "https://static01.nyt.com/images/2017/03/30/us/30ivanka/30ivanka-master768-v2.jpg",
         "scores": [
             "5",
             "2",
@@ -48,8 +48,8 @@ var friendsArray = [
             ]
     },
     {
-        "name": "Louis T. Delia",
-        "photo": "https://pbs.twimg.com/profile_images/639214960049000449/lNCRC-ub.jpg",
+        "name": "Jared Kushner",
+        "photo": "https://ichef.bbci.co.uk/images/ic/720x405/p056d4d3.jpg",
         "scores": [
             "3",
             "3",
@@ -64,8 +64,8 @@ var friendsArray = [
             ]
     },
     {
-        "name": "Lou Ritter",
-        "photo": "https://m.facebook.com/photo.php?fbid=10208500699025296&id=1542229019&set=a.1549418665704.77596.1542229019&source=11",
+        "name": "Mike Pence",
+        "photo": "http://www.newsmax.com/Newsmax/files/e5/e58b52ea-67cc-49be-a243-8d827bee9255.jpg",
         "scores": [
             "4",
             "3",
@@ -80,8 +80,8 @@ var friendsArray = [
             ]
     },
     {
-        "name": "Jordan Biason",
-        "photo": "https://scontent-ord1-1.xx.fbcdn.net/v/t1.0-9/12741971_10205764267089153_4212986785721953092_n.jpg?oh=4e18265f7d380167223a97fbd7eba278&oe=57B78445",
+        "name": "Kellyanne Conway",
+        "photo": "http://assets.nydailynews.com/polopoly_fs/1.2772679.1472648865!/img/httpImage/image.jpg_gen/derivatives/article_750/usa-election-trump.jpg",
         "scores": [
             "4",
             "4",
