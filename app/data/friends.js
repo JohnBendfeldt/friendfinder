@@ -3,7 +3,7 @@ var friendsArray = [
         "name": "Sean Spicer",
         "photo": "http://i2.cdn.cnn.com/cnnnext/dam/assets/170209140010-01-sean-spicer-0208-exlarge-169.jpg",
         "scores": [
-            "5",
+            "4",
             "1",
             "4",
             "4",
@@ -12,7 +12,7 @@ var friendsArray = [
             "2",
             "5",
             "4",
-            "1"
+            "2"
             ]
     },
     {
@@ -22,13 +22,13 @@ var friendsArray = [
             "4",
             "2",
             "5",
-            "1",
+            "2",
             "3",
             "2",
             "2",
+            "2",
             "1",
-            "3",
-            "2"
+            "1"
             ]
     },
     {
@@ -40,9 +40,9 @@ var friendsArray = [
             "2",
             "2",
             "4",
-            "1",
+            "5",
             "3",
-            "2",
+            "5",
             "5",
             "5"
             ]
@@ -74,8 +74,8 @@ var friendsArray = [
             "5",
             "2",
             "5",
-            "3",
             "1",
+            "2",
             "4"
             ]
     },
@@ -92,7 +92,7 @@ var friendsArray = [
             "3",
             "2",
             "4",
-            "5"
+            "4"
             ]
     },
     {
@@ -106,7 +106,7 @@ var friendsArray = [
             "2",
             "2",
             "5",
-            "2",
+            "5",
             "2",
             "5"
             ]

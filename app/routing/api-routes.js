@@ -28,10 +28,11 @@ module.exports = function(app) {
 		var totalDifference = 10000; // Make the initial value big for comparison
 
 		// Examine all existing friends in the list
-	var userTotalScore = userResponses.reduce((sum, next) => sum + parseInt(next), 0)
+		var userTotalScore = userResponses.reduce((sum, next) => sum + parseInt(next), 0)
             for (var i = 0; i < friends.length; i++) {
                 var currentFriendTotal = friends[i].scores.reduce((sum, next) => sum + parseInt(next), 0)
-                var difference = Math.abs(userTotalScore - currentFriendTotal)
+				var difference = Math.abs(userTotalScore - currentFriendTotal)
+				console.log(difference);
                 if (difference < totalDifference) {
                     totalDifference = difference;
                     matchName = friends[i].name;
