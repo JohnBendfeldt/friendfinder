@@ -19,7 +19,7 @@ To run this app locally navigate to the directory you want and clone the reposit
 	
 Next, install the app dependencies:
 
-	cd burger
+	cd friendfinder
 	npm install
 	
 Now you can run the server:
